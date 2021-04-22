@@ -1,0 +1,32 @@
+.section1{
+background-image: url('../../../public/img/banner-bg.jpg');
+height: 500px;
+    div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        height: 100%;
+        
+        p:first-of-type{
+            font-weight: bold;
+        }
+        h1{
+            
+
+        }
+        p:last-of-type{
+            text-align: center;
+        }
+        button{
+            background-color: $sal;
+            color: white;
+            padding: 0.6em;
+            border-radius: 0.1em;
+            width: 25%;
+            border: none;
+
+        }
+    }
+    }

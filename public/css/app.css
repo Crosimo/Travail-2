@@ -16046,9 +16046,446 @@ h3 {
     border-color: #dee2e6;
   }
 }
-div {
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 220px;
+}
+header div h1:last-of-type {
+  border-bottom: 1px solid grey;
+  padding-right: 25em;
+}
+header div ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+header div ul li a {
+  color: black;
+}
+
+.section1 {
+  background-image: url("../../../public/img/banner-bg.jpg");
+  height: 500px;
+}
+.section1 div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 100%;
+}
+.section1 div p:first-of-type {
+  font-weight: bold;
+}
+.section1 div p:last-of-type {
+  text-align: center;
+}
+.section1 div button {
+  background-color: #f2745f;
+  color: white;
+  padding: 0.6em;
+  border-radius: 0.1em;
+  width: 25%;
+  border: none;
+}
+
+.section2 {
+  height: 950px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.section2 div:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55%;
+}
+.section2 div:first-of-type img {
+  height: 275px;
+}
+.section2 div:first-of-type div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #f2745f;
+  height: 22em;
+}
+.section2 div:first-of-type div h1 {
+  color: white;
+  width: 70%;
+  margin: 0.1em;
+}
+.section2 div:first-of-type div div {
+  background-color: #f3826f;
+  width: 85%;
+  height: 30%;
+  border-radius: 0.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.section2 div:first-of-type div div span:last-of-type {
+  height: 25%;
+  font-weight: bold;
+  font-size: 1.15em;
+}
+.section2 div:first-of-type div span {
+  color: white;
+}
+.section2 div:first-of-type div button {
+  color: salmon;
+  border-radius: 0.2em;
+  padding: 0.6em 0.9em 0.4em 0.9em;
+  border: none;
+  margin-bottom: 1em;
+  width: 35%;
+}
+.section2 div {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 div ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.section2 div ul li {
+  list-style-type: none;
+  text-align: center;
+  width: 25%;
+}
+.section2 div ul li img {
+  height: 88%;
+  border: grey 8px solid;
+  border-radius: 50%;
+}
+.section2 div ul li p {
+  font-size: 1.5em;
+  width: 100%;
+  font-weight: bold;
+  margin: 0.2em;
+}
+
+.section3 {
   background-color: red;
-  height: 25px;
+  height: 680px;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/book-bg.jpg");
+}
+.section3 .div1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 80%;
+  width: 100%;
+}
+.section3 .div1 p {
+  font-weight: bold;
+  color: white;
+  font-size: 2em;
+  margin: 0;
+}
+.section3 .div1 .div2 {
+  display: flex;
+  height: 80%;
+  width: 80%;
+}
+.section3 .div1 .div2 .div3 {
+  background-color: white;
+  text-align: start;
+  padding: 0.6em;
+}
+.section3 .div1 .div2 .div3 form {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.section3 .div1 .div2 .div3 form h1 {
+  width: 100%;
+  text-align: center;
+}
+.section3 .div1 .div2 .div3 form a {
+  color: black;
+  width: 50%;
+  position: relative;
+}
+.section3 .div1 .div2 .div3 form a::before {
+  content: " ";
+  width: 60%;
+  height: 0.5px;
+  position: absolute;
+  bottom: 53%;
+  border-bottom: rgba(22, 21, 21, 0.2) 1px solid;
+}
+.section3 .div1 .div2 .div3 form .div4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  text-align: start;
+  padding: 0.6em;
+}
+.section3 .div1 .div2 .div3 form .div4 p {
+  margin: 0;
+  color: black;
+  width: 100%;
+}
+.section3 .div1 .div2 .div3 form .div4 input {
+  width: 100%;
+  height: 40%;
+}
+.section3 .div1 .div2 .div3 form button {
+  width: 46%;
+  height: 12%;
+  background-color: salmon;
+  color: white;
+  border: none;
+  margin-left: 0.6em;
+  font-size: 1.2em;
+}
+
+.section4 {
+  background-color: salmon;
+  height: 13em;
+  display: flex;
+  align-items: center;
+}
+.section4 div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80%;
+}
+.section4 div h3 {
+  margin: 0;
+}
+.section4 div button {
+  padding: 0.6em 1em 0.6em 1em;
+  border-radius: 0.3em;
+  color: #f2745f;
+  border: none;
+  width: 18%;
+}
+
+.section5 {
+  height: 750px;
+  display: flex;
+}
+.section5 .weekly {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section5 .weekly .week {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section5 .weekly .week .meal {
+  width: 30%;
+  background-color: #f2f6ff;
+  max-width: max-content;
+  padding: 1.5em;
+}
+.section5 .weekly .week .meal h3 {
+  text-align: start;
+  border-bottom: 1px red solid;
+  margin-bottom: 1em;
+}
+.section5 .weekly .week .meal div {
+  position: relative;
+}
+.section5 .weekly .week .meal div img {
+  width: 100%;
+}
+.section5 .weekly .week .meal div p {
+  position: absolute;
+  bottom: -16.5px;
+  right: 0;
+  z-index: 5;
+  background-color: wheat;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  color: salmon;
+}
+.section6 {
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+.section6 .blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 80%;
+}
+.section6 .blog .post {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 80%;
+}
+.section6 .blog .post .day {
+  width: 48%;
+  height: 50%;
+  display: flex;
+  background-color: #f2f6ff;
+  margin: 0.2em;
+}
+.section6 .blog .post .day div:first-of-type {
+  position: relative;
+  height: 100%;
+}
+.section6 .blog .post .day div:first-of-type img {
+  height: 100%;
+}
+.section6 .blog .post .day div:first-of-type p {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  background-color: wheat;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  color: #f2745f;
+}
+.section6 .blog .post .day div:last-of-type {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section6 .blog .post .day div:last-of-type h3 {
+  margin: 0;
+}
+.section6 .blog .post .day div:last-of-type h4 {
+  font-size: 1em;
+  font-weight: lighter;
+}
+.section6 .blog .post .day div:last-of-type p {
+  text-align: justify;
+}
+.section6 .blog .post .day div:last-of-type a {
+  color: #f2745f;
+  font-weight: bold;
+}
+
+.section7 {
+  background-image: url(../img/signup-bg.jpg);
+  height: 15em;
+  display: flex;
+  align-items: center;
+}
+.section7 .friend {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+}
+.section7 .friend h1 {
+  color: white;
+}
+.section7 .friend div:last-of-type {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.section7 .friend div:last-of-type input {
+  width: 70%;
+  border-radius: 0.2em;
+  padding: 0.2em;
+}
+.section7 .friend div:last-of-type button {
+  background-color: transparent;
+  color: white;
+  border: 0.5px white solid;
+}
+
+.sectionlol1 {
+  background-image: url("../../../public/img/banner-bg.jpg");
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.sectionlol1 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 30%;
+}
+.sectionlol1 div h1 {
+  font-size: 3.5em;
+}
+.sectionlol1 div p:last-of-type {
+  text-align: center;
+}
+
+.sectionlol2 {
+  width: 100%;
+  height: 100%;
+}
+.sectionlol2 .mamen {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 600px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.sectionlol2 .mamen .try1 {
+  background-color: grey;
+  width: 60%;
+}
+.sectionlol2 .mamen .try1 h4 {
+  color: white;
+  width: 100%;
+  margin-top: 0.8em;
+  margin-left: 0.8em;
+  border-bottom: white 1px solid;
+}
+.sectionlol2 .mamen .try1 .try2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80%;
+}
+.sectionlol2 .mamen .try1 .try2 .carta {
+  display: flex;
+  align-items: center;
+  height: 82%;
+}
+.sectionlol2 .mamen .try1 .try2 .carta .amigo {
+  position: absolute;
+  bottom: 57.5%;
+  right: 0;
+  background-color: red;
+  border-radius: 0.2em;
 }
 
 /*# sourceMappingURL=app.css.map */

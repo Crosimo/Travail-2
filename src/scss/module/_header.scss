@@ -1,4 +1,29 @@
-div{
-    background-color: red;
-    height: 25px;
+header{
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 220px;
+        
+        h1:last-of-type{
+            border-bottom: 1px solid grey;
+            padding-right: 25em;
+
+        }
+
+        
+        ul{
+            width: 80%;
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            li{
+                a{
+                    color: black
+                }
+            }
+        }
+    }
+
 }

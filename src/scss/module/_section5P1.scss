@@ -1,0 +1,55 @@
+.section5{
+    height: 750px;
+    display: flex;
+    .weekly{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .week{
+            display: flex;
+            
+            justify-content: space-evenly;
+            .meal{
+                width: 30%;
+                background-color: #f2f6ff;
+                max-width: max-content;
+                padding : 1.5em;
+                
+                
+                h3{
+                    text-align: start;
+                    border-bottom: 1px red solid;
+                    margin-bottom: 1em;
+
+                }
+                div{
+                    position: relative;
+                    
+                    img{
+                        width:100%;
+
+                    }
+                    p{
+                        position: absolute;
+                        bottom: -16.5px;
+                        right: 0;
+                        z-index: 5;
+                        background-color: wheat;
+                        padding: 0.2em;
+                        border-radius: 0.2em;
+                        color: salmon;
+
+
+                    }
+                }
+                h4{
+
+                }
+                p{
+
+                }
+            }
+        }
+    }
+}
