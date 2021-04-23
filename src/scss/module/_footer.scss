@@ -1,0 +1,23 @@
+footer{
+    background-color: steelblue;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    i{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div{
+    
+        p{
+            color: white;
+        }
+    }
+}

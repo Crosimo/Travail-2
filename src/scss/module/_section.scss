@@ -1,0 +1,123 @@
+.banner{
+    background-image: url(../../../../banner-bg.jpg);
+    /* background-size: cover; */
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Noto Serif', serif;
+    width: 100%;
+    h1{
+        padding-bottom: 20px;
+        
+    }
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    padding-top: 80px;
+    /* width: 70%; */
+    height: 400px;
+    /* margin-left: 15%; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    div{
+        width: 50%;
+    }
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+.message{
+    height: 100%;
+    width: 30%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    /* border: solid; */
+    
+} 
+.liste{
+    background-color: rgb(231, 228, 228);
+    margin: 0;
+}
+iframe{
+    margin-top: 100px;
+    width: 100%;
+    padding-bottom: 100px;
+    height: 600px;
+}
+
+.formgauche{
+    width: 50%;
+}
+.soustitr{
+    padding-top: 50px;
+    text-align: left;
+    div{
+        width: 100%;
+        h1{
+            width: 100%;
+        }
+    }
+    
+}
+#button{
+    background-color: tomato;
+    
+}
+.textdroite{
+    text-align: left;
+    width: 50%;
+    color:gray;
+}
+.bold{
+    font-weight: bold;
+}
+@media (min-width:320px) and (max-width:768px){
+     textarea{
+        width: 100px;
+    }
+    
+    .liste{
+        width: 100px;
+        overflow: scroll;
+    }
+    button{
+        background-color: gray;
+    }   
+    .soustitr{
+        padding-top: 50px;
+        text-align: left;
+        font-size: 20px;
+        
+        
+        div{
+            width: 100%;
+           
+            h1{
+                width: 50%;
+                font-size: 30px;
+            }
+        }
+        
+    }
+
+}
