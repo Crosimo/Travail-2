@@ -1,6 +1,9 @@
+@media (min-width: 1200px){
 .section1{
 background-image: url('../../../public/img/banner-bg.jpg');
 height: 500px;
+display: flex;
+justify-content: center;
     div{
         display: flex;
         justify-content: center;
@@ -8,6 +11,8 @@ height: 500px;
         align-items: center;
         color: white;
         height: 100%;
+        width: 50%;
+        
         
         p:first-of-type{
             font-weight: bold;
@@ -30,3 +35,42 @@ height: 500px;
         }
     }
     }
+}
+@media (max-width: 1199px){
+    .section1{
+        background-image: url('../../../public/img/banner-bg.jpg');
+        height: 500px;
+            div{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                color: white;
+                height: 100%;
+                text-align: center;
+                
+                p:first-of-type{
+                    font-weight: bold;
+                    font-size: max(2.8vw, 15px);
+                    
+                }
+                h1{
+                    
+                    font-size: max(3vw, 20px);
+        
+                }
+                p:last-of-type{
+                    text-align: center;
+                }
+                button{
+                    background-color: $sal;
+                    color: white;
+                    padding: 0.6em;
+                    border-radius: 0.1em;
+                    width: 50%;
+                    border: none;
+        
+                }
+            }
+            }
+}

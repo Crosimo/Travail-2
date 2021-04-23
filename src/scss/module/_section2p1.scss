@@ -1,4 +1,117 @@
+@media (max-width: 1200px){
 .section2 {
+        height: max-content;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    div:first-of-type{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35%;
+        flex-direction: column;
+        img{
+            // height: 500px;
+            width: 70%;
+
+
+
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            background-color: $sal;
+            height: 18em;
+            h1{
+                color: white;
+                width: 70%;
+                margin: 0.1em;
+                font-size: max(5vw, 20px);
+
+
+            }
+            div{
+                background-color: #f3826f;
+                width: 85%;
+                height: 30%;
+                border-radius: 0.2em;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                padding-top:1em;
+                padding-bottom: 01em;
+                
+                
+                span:last-of-type{
+                    height: 25%;
+                    font-weight: bold;
+                    font-size: 0.8em;
+                }
+                
+            }
+            span{
+                color: white;
+            }
+            button{
+                color: salmon;
+                border-radius: 0.2em;
+                padding: 0.6em  0.9em 0.4em  0.9em;
+                border: none;
+                margin-bottom: 1em;
+                width: 50%
+                
+            }
+        }
+    }
+   div{
+       height: 55%;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       ul{
+           display: flex;
+           justify-content: space-between;
+           flex-direction: column;
+           text-align: center;
+           
+           padding: 0;
+           li{
+               list-style-type: none;
+               text-align: center;
+               width: 100%;
+               img{
+                   height: 88%;
+                   
+                   border: grey 8px solid;
+                   border-radius: 50%;
+
+               }
+               p{
+                font-size: 1.5em;
+                width: 100%;
+                font-weight: bold;
+                margin: 0.2em;
+               }
+           }
+       }
+   } 
+}
+}
+
+
+
+
+
+
+
+@media (min-width: 1199px){
+    .section2 {
         height: 950px;
         display: flex;
         align-items: center;
@@ -92,4 +205,5 @@
            }
        }
    } 
+}
 }

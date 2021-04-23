@@ -1,3 +1,6 @@
+@media (min-width: 640px){
+
+
 .section7{
     background-image: url(../img/signup-bg.jpg);
     height: 15em;
@@ -11,6 +14,7 @@
         flex-direction: column;
         align-items: center;
         height: 50%;
+        text-align: center;
         h1{
             color: white;
         }
@@ -28,6 +32,49 @@
                 background-color: transparent;
                 color: white;
                 border: 0.5px white solid;
+                width: min-content;
+            }
+        }
+    }
+}
+}
+@media(max-width: 639px){
+    .section7{
+        background-image: url(../img/signup-bg.jpg);
+        height: 15em;
+        display: flex;
+        align-items: center;
+        
+        .friend{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            height: 50%;
+            text-align: center;
+            h1{
+                color: white;
+            }
+            div:last-of-type{
+                display: flex;
+                width: 50%;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                
+                input{
+                    width: max-content;
+                    border-radius: 0.2em;
+                    padding: 0.2em;
+                    margin: 0.4em;
+                }
+                button{
+                    background-color: transparent;
+                    color: white;
+                    border: 0.5px white solid;
+                    width: min-content;
+                    width: 70%;
+                }
             }
         }
     }
